@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Recipes App</string>
+    <string name="error_empty_data">Empty Data</string>
+
+    <string name="img_desc_logo_app_recipe">Logo App Recipe</string>
+    <string name="img_desc_gradient">Image Gradient White</string>
+    <string name="img_desc_backdrop">Image Backdrop</string>
+
+
+    <string name="title_recipe_steps">Ingredients For Cooking</string>
+    <string name="app_bar_title_list_recipes_food">List Recipes Food</string>
+
+    <string name="app_bar_title_recipe">Recipe Detail</string>
+</resources>

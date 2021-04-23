@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RecipeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+        <item name="textAppearanceHeadline6">@style/TextAppearance.App.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.App.Subtitle1</item>
+    </style>
+
+    <style name="TextAppearance.App.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/nunito_reguler</item>
+        <item name="android:fontFamily">@font/nunito_reguler</item>
+    </style>
+
+    <style name="TextAppearance.App.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/nunito_reguler</item>
+        <item name="android:fontFamily">@font/nunito_reguler</item>
+    </style>
+
+    <style name="ThemeAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">#333333</item>
+        <item name="android:textColorSecondary">#9D9D9D</item>
+        <item name="android:textColorHint">#9D9D9D</item>
+    </style>
+
+    <style name="MyFontRegulerStyle">
+        <item name="android:textColor">#333333</item>
+        <item name="fontFamily">@font/nunito_reguler</item>
+        <item name="android:fontFamily">@font/nunito_reguler</item>
+    </style>
+
+    <style name="MyFontSemiBoldStyle">
+        <item name="android:textColor">#333333</item>
+        <item name="fontFamily">@font/nunito_reguler</item>
+        <item name="android:fontFamily">@font/nunito_reguler</item>
+    </style>
+
+    <style name="MyCollapsingToolbarLayout">
+        <item name="contentScrim">@color/white</item>
+    </style>
+
+</resources>

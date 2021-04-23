@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipes App</string>
+    <string name="error_empty_data">Data Kosong</string>
+
+    <string name="img_desc_logo_app_recipe">Logo App Recipe</string>
+    <string name="img_desc_gradient">Gambar Gradasi Putih</string>
+    <string name="img_desc_backdrop">Gambar Latar</string>
+
+    <string name="title_recipe_steps">Bahan - Bahan Masakan</string>
+
+    <string name="app_bar_title_recipe">Detail Resep Masakan</string>
+    <string name="app_bar_title_list_recipes_food">List Resep Masakan</string>
+
+</resources>

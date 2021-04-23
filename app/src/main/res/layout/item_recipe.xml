@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    app:cardElevation="@dimen/_2sdp"
+    android:id="@+id/cv_container">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/img_food_recipe"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_100sdp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/img_desc_backdrop" />
+
+        <TextView
+            style="@style/MyFontRegulerStyle"
+            android:id="@+id/tv_title_food_recipe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:layout_margin="@dimen/_8sdp"
+            android:gravity="center_vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_food_recipe"
+            tools:text="Ayam Bakar Mak Ijah"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
