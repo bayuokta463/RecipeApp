@@ -12,6 +12,8 @@ import com.bayuokta.recipeapp.adapter.AdapterRecipes
 import com.bayuokta.recipeapp.databinding.ActivityMainBinding
 import com.bayuokta.recipeapp.model.Food
 import com.bayuokta.recipeapp.network.ApiResponse
+import jp.wasabeef.recyclerview.adapters.AlphaInAnimationAdapter
+import jp.wasabeef.recyclerview.adapters.ScaleInAnimationAdapter
 
 
 class MainActivity : AppCompatActivity() {
@@ -60,8 +62,9 @@ class MainActivity : AppCompatActivity() {
                     startActivity(detailRecipeActivity)
                 }
 
+                val alphaAdapter = AlphaInAnimationAdapter(adapterRecipes)
                 binding.rvRecipes.layoutManager = GridLayoutManager(this,resources.getInteger(R.integer.span))
-                binding.rvRecipes.adapter = adapterRecipes
+                binding.rvRecipes.adapter = ScaleInAnimationAdapter(alphaAdapter)
 
             }
         }
